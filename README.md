@@ -3,7 +3,7 @@
 iwctl
 ```
 ```
-station wlan0 connect "Code Warrior"
+station wlan0 connect "Wireless Network Name"
 ```
 ```
 exit
@@ -75,7 +75,7 @@ locale-gen
 echo LANG=en_US.UTF-8 >> /etc/locale.conf
 ```
 ```
-echo archlinux >> /etc/hostname
+echo myHostname >> /etc/hostname
 ```
 ```
 nano /etc/hosts
@@ -83,7 +83,7 @@ nano /etc/hosts
 ```
 127.0.0.1        localhost
 ::1              localhost
-127.0.1.1        archlinux
+127.0.1.1        myHostname
 ```
 ```
 systemctl enable NetworkManager.service
@@ -104,10 +104,10 @@ grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 ```
 ```
-useradd -mG wheel aam
+useradd -mG wheel myUsername
 ```
 ```
-passwd aam
+passwd myUsername
 ```
 ```
 EDITOR=nano visudo
