@@ -3,7 +3,7 @@
 iwctl
 ```
 ```
-station wlan0 connect "Wireless Network Name"
+station wlan0 connect "myWirelessNetworkName"
 ```
 ```
 exit
