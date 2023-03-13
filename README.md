@@ -145,9 +145,9 @@ reboot
 ### `Part 2 @ {Installation of Minimal Selected Packages}`
 **a) Arch Linux with KDE Plasma:**
 ```
-yay -S exfatprogs ntfs-3g os-prober grub-btrfs dolphin sweeper ksysguard yakuake noto-fonts-emoji khelpcenter appmenu-gtk-module ufw packagekit-qt5 packagekit-qt6 timeshift
+yay -S exfatprogs ntfs-3g os-prober grub-btrfs dolphin sweeper ksysguard yakuake noto-fonts-emoji khelpcenter appmenu-gtk-module ufw packagekit-qt5 packagekit-qt6 timeshift safeeyes python-croniter
 ```
 **b) Arch Linux with KDE Plasma and Chaotic-AUR:**
 ```
-yay -S exfatprogs ntfs-3g os-prober grub-btrfs dolphin sweeper ksysguard yakuake noto-fonts-emoji khelpcenter appmenu-gtk-module ufw packagekit-qt5 packagekit-qt6 timeshift
+yay -S exfatprogs ntfs-3g os-prober grub-btrfs dolphin sweeper ksysguard yakuake noto-fonts-emoji khelpcenter appmenu-gtk-module ufw packagekit-qt5 packagekit-qt6 timeshift safeeyes python-croniter
 ```
