@@ -1,4 +1,4 @@
-### `Part 1 @ {Installation of Arch Linux OS}`
+### `OS Installation @ {Part 1}`
 ```
 iwctl
 ```
@@ -142,7 +142,7 @@ umount -R /mnt
 reboot
 ```
 
-### `Part 2 @ {Installation of Minimal Selected Packages}`
+### `Packages Installation @ {Part 2}`
 **a) Arch Linux with KDE Plasma:**
 ```
 yay -S exfatprogs ntfs-3g os-prober grub-btrfs dolphin sweeper ksysguard yakuake noto-fonts-emoji khelpcenter appmenu-gtk-module ufw packagekit-qt5 packagekit-qt6 timeshift safeeyes python-croniter
